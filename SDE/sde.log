@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.30)  26 AUG 2023 14:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.30)  26 AUG 2023 15:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/vamshikiranmorlawar/Desktop/MResume/SDE/sde.tex
-(/Users/vamshikiranmorlawar/Desktop/MResume/SDE/sde.tex
+**/Users/vamshikiranmorlawar/Desktop/ResumeLatex/SDE/sde.tex
+(/Users/vamshikiranmorlawar/Desktop/ResumeLatex/SDE/sde.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
@@ -550,6 +550,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 88.
 LaTeX Info: Redefining \pageref on input line 88.
 LaTeX Info: Redefining \nameref on input line 88.
+ (./sde.out) (./sde.out)
 \@outlinefile=\write3
 \openout3 = `sde.out'.
 
@@ -685,18 +686,6 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
 (Font)              scaled to size 9.40807pt on input line 133.
 
 
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[1
-
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (103.3698pt too wide) in paragraph at lines 305--305
-[][]  
- []
-
-
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
@@ -706,29 +695,25 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[2] (./sde.aux)
+[1
 
-Package rerunfilecheck Warning: File `sde.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `sde.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  A4D0B8D43A0306767003FF0D6EFCDE46;775.
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./sde.aux)
+Package rerunfilecheck Info: File `sde.out' has not changed.
+(rerunfilecheck)             Checksum: 6AB5552AB0EC59C4B9B1944E577F13E6;702.
  ) 
 Here is how much of TeX's memory you used:
- 14081 strings out of 478268
- 222702 string characters out of 5846347
- 625389 words of memory out of 5000000
- 32041 multiletter control sequences out of 15000+600000
- 505950 words of font info for 81 fonts, out of 8000000 for 9000
+ 14088 strings out of 478268
+ 222783 string characters out of 5846347
+ 622842 words of memory out of 5000000
+ 32049 multiletter control sequences out of 15000+600000
+ 504862 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,80p,351b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 68i,11n,80p,355b,327s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb8t.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb>
-Output written on sde.pdf (2 pages, 83608 bytes).
+Output written on sde.pdf (1 page, 80196 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 89 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,11 +1,11 @@
 # Fdb version 3
-["bibtex sde"] 1693041548 "sde.aux" "sde.bbl" "sde" 1693041548
-  "sde.aux" 1693041548 1551 f168361348d8002bf8b844643bfbc29d "pdflatex"
+["bibtex sde"] 1693043940 "sde.aux" "sde.bbl" "sde" 1693043945
+  "sde.aux" 1693043945 1444 8ab925c29af61e9273edb7af50d37236 "pdflatex"
   (generated)
   "sde.bbl"
   "sde.blg"
-["pdflatex"] 1693041548 "/Users/vamshikiranmorlawar/Desktop/MResume/SDE/sde.tex" "sde.pdf" "sde" 1693041548
-  "/Users/vamshikiranmorlawar/Desktop/MResume/SDE/sde.tex" 1693041547 16809 4243429260e9b996365610dda5cde176 ""
+["pdflatex"] 1693043945 "/Users/vamshikiranmorlawar/Desktop/ResumeLatex/SDE/sde.tex" "sde.pdf" "sde" 1693043945
+  "/Users/vamshikiranmorlawar/Desktop/ResumeLatex/SDE/sde.tex" 1693043945 18682 841d708409e2b99405878ffb82611617 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc" 1276641224 6938 5135be6a8802f13a7faf296d1959a1ab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -21,7 +21,6 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chr8c.tfm" 1377991452 1140 2af1c955d3b285967b6afa3475437da5 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chr8t.tfm" 1377991452 992 b635bd892c5f064cc4c7d172e94c7fc9 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chr8y.tfm" 1377991452 1604 95b3dfa8282f3b7807ebdf0f30ea7999 ""
-  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chri7m.tfm" 1377991452 1224 9850779b08ad329e12c2833d0dafbe70 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chri8t.tfm" 1377991452 1028 a49c57e73394d8897bfd35d55a35dd8b ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/mathdesign/mdbch/md-chri8y.tfm" 1377991452 1756 3d33d9b711f92f3b1d172cbde87d8eb9 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/mathdesign/mdbch/mdbchb8t.tfm" 1377991452 9396 fbc4a4108996f58499dcbf852f28224e ""
@@ -49,7 +48,6 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/public/mathdesign/mdbch/mdbchr8c.vf" 1377991452 504 2e9f2cfcc98d2c092699b53d0873172d ""
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/public/mathdesign/mdbch/mdbchr8t.vf" 1377991452 2224 103bf0af1df04f28e57b118a8f5d1915 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/public/mathdesign/mdbch/mdbchrfc8t.vf" 1377991452 2972 aa48dee281d899cb24f6b348e0509483 ""
-  "/usr/local/texlive/2022/texmf-dist/fonts/vf/public/mathdesign/mdbch/mdbchri7m.vf" 1377991452 1148 f010126386d8bba99c9c766ac714b8b8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/vf/public/mathdesign/mdbch/mdbchri8t.vf" 1377991452 2188 488e608096c58581ae80c3969ca69e9c ""
   "/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2022/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -140,10 +138,10 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1659187170 2826441 113844defd9fe92c54c8d993a02a2e6e ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "sde.aux" 1693041548 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "sde.aux" 1693043945 1444 8ab925c29af61e9273edb7af50d37236 "pdflatex"
   "sde.bbl" 0 -1 0 "bibtex sde"
-  "sde.out" 0 -1 0 "pdflatex"
-  "sde.tex" 1693041547 16809 4243429260e9b996365610dda5cde176 ""
+  "sde.out" 1693043945 702 6ab5552ab0ec59c4b9b1944e577f13e6 "pdflatex"
+  "sde.tex" 1693043945 18682 841d708409e2b99405878ffb82611617 ""
   (generated)
   "sde.aux"
   "sde.log"
