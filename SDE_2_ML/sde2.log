@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.30)  3 SEP 2023 20:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.30)  4 SEP 2023 14:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/vamshikiranmorlawar/Desktop/ResumeLatex/Master-1/master.tex
-(/Users/vamshikiranmorlawar/Desktop/ResumeLatex/Master-1/master.tex
+**/Users/vamshikiranmorlawar/Desktop/ResumeLatex/SDE_2_ML/sde2.tex
+(/Users/vamshikiranmorlawar/Desktop/ResumeLatex/SDE_2_ML/sde2.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
@@ -119,7 +119,7 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \mc@col@check@num=\count272
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/natbib/bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
-) (./master.bbl) (/usr/local/texlive/2022/texmf-dist/tex/latex/romannum/romannum.sty
+) (./sde2.bbl) (/usr/local/texlive/2022/texmf-dist/tex/latex/romannum/romannum.sty
 Package: romannum 2009/09/03 v1.0b roman numerals
  (/usr/local/texlive/2022/texmf-dist/tex/latex/stdclsdv/stdclsdv.sty
 Package: stdclsdv 2009/09/04 v1.1a Sectional divisions
@@ -490,8 +490,8 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 LaTeX Warning: Unused global option(s):
     [10.8pt].
 
-(./master.aux)
-\openout1 = `master.aux'.
+(./sde2.aux)
+\openout1 = `sde2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
 LaTeX Font Info:    ... okay on input line 88.
@@ -550,8 +550,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 88.
 LaTeX Info: Redefining \pageref on input line 88.
 LaTeX Info: Redefining \nameref on input line 88.
+ (./sde2.out) (./sde2.out)
 \@outlinefile=\write3
-\openout3 = `master.out'.
+\openout3 = `sde2.out'.
 
 
 *geometry* driver: auto-detecting
@@ -685,18 +686,6 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
 (Font)              scaled to size 9.40807pt on input line 133.
 
 
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[1
-
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (103.3698pt too wide) in paragraph at lines 305--305
-[][]  
- []
-
-
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
@@ -706,29 +695,25 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[2] (./master.aux)
+[1
 
-Package rerunfilecheck Warning: File `master.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `master.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  525A7D9438F3BB08519D4B7544C736F7;853.
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./sde2.aux)
+Package rerunfilecheck Info: File `sde2.out' has not changed.
+(rerunfilecheck)             Checksum: 6AB5552AB0EC59C4B9B1944E577F13E6;702.
  ) 
 Here is how much of TeX's memory you used:
- 14082 strings out of 478268
- 222789 string characters out of 5846347
- 625395 words of memory out of 5000000
- 32041 multiletter control sequences out of 15000+600000
- 505950 words of font info for 81 fonts, out of 8000000 for 9000
+ 14088 strings out of 478268
+ 222819 string characters out of 5846347
+ 622848 words of memory out of 5000000
+ 32049 multiletter control sequences out of 15000+600000
+ 504862 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,80p,363b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 68i,11n,80p,361b,327s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb8t.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb>
-Output written on master.pdf (2 pages, 83754 bytes).
+Output written on sde2.pdf (1 page, 80021 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

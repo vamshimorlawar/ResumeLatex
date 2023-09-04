@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.30)  26 AUG 2023 15:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.30)  4 SEP 2023 14:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/vamshikiranmorlawar/Desktop/ResumeLatex/SDE/sde.tex
-(/Users/vamshikiranmorlawar/Desktop/ResumeLatex/SDE/sde.tex
+**/Users/vamshikiranmorlawar/Desktop/ResumeLatex/ML-DS/ml_ds.tex
+(/Users/vamshikiranmorlawar/Desktop/ResumeLatex/ML-DS/ml_ds.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
@@ -119,7 +119,7 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \mc@col@check@num=\count272
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/natbib/bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
-) (./sde.bbl) (/usr/local/texlive/2022/texmf-dist/tex/latex/romannum/romannum.sty
+) (./ml_ds.bbl) (/usr/local/texlive/2022/texmf-dist/tex/latex/romannum/romannum.sty
 Package: romannum 2009/09/03 v1.0b roman numerals
  (/usr/local/texlive/2022/texmf-dist/tex/latex/stdclsdv/stdclsdv.sty
 Package: stdclsdv 2009/09/04 v1.1a Sectional divisions
@@ -490,8 +490,8 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 LaTeX Warning: Unused global option(s):
     [10.8pt].
 
-(./sde.aux)
-\openout1 = `sde.aux'.
+(./ml_ds.aux)
+\openout1 = `ml_ds.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
 LaTeX Font Info:    ... okay on input line 88.
@@ -550,9 +550,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 88.
 LaTeX Info: Redefining \pageref on input line 88.
 LaTeX Info: Redefining \nameref on input line 88.
- (./sde.out) (./sde.out)
+ (./ml_ds.out) (./ml_ds.out)
 \@outlinefile=\write3
-\openout3 = `sde.out'.
+\openout3 = `ml_ds.out'.
 
 
 *geometry* driver: auto-detecting
@@ -697,20 +697,20 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./sde.aux)
-Package rerunfilecheck Info: File `sde.out' has not changed.
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./ml_ds.aux)
+Package rerunfilecheck Info: File `ml_ds.out' has not changed.
 (rerunfilecheck)             Checksum: 6AB5552AB0EC59C4B9B1944E577F13E6;702.
  ) 
 Here is how much of TeX's memory you used:
  14088 strings out of 478268
- 222783 string characters out of 5846347
- 622842 words of memory out of 5000000
+ 222831 string characters out of 5846347
+ 621854 words of memory out of 5000000
  32049 multiletter control sequences out of 15000+600000
  504862 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,80p,355b,327s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 68i,11n,80p,359b,327s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chb8t.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr7y.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pfb>
-Output written on sde.pdf (1 page, 80196 bytes).
+Output written on ml_ds.pdf (1 page, 79972 bytes).
 PDF statistics:
  89 PDF objects out of 1000 (max. 8388607)
  71 compressed objects within 1 object stream

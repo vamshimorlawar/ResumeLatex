@@ -1,0 +1,424 @@
+
+\documentclass[10.8pt, a4paper]{extarticle}
+\usepackage{lipsum}
+% \usepackage{fontspec}
+% \setmainfont{Corbel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{bibentry}
+\nobibliography*
+\usepackage{romannum}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex, hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+\setlist[itemize]{noitemsep, topsep=0.3pt}
+\usepackage[charter]{mathdesign} % Bitstream Charter
+% \usepackage{newpxtext,newpxmath} % Palatino
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.50in}
+\addtolength{\evensidemargin}{-0.250in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+\addtolength{\parskip}{.5mm}
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\usepackage[margin=0.3in]{geometry}
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemNoBullet}[2]{
+  \item[]\small{
+    \hspace{-9pt}\textbf{#1}{: #2 \vspace{-6pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item[]
+  \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
+      \hspace{-10pt}\textbf{#1} & #2 \\
+      \hspace{-10pt}\textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% custom commands
+\newcommand{\shorterSection}[1]{\vspace{-10pt}\section{#1}}
+
+%-------------------------------------------1720 S Michigan Ave, Chicago, IL
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\baselinestretch}{1.0} 
+\begin{document}
+
+% \fontfamily{qhv}\selectfont
+% \setlength{\parskip}{0em}
+
+% \setmainfont{CORBEL.ttf}
+\fontsize{9.8pt}{11.3pt}\selectfont
+% \renewcommand{\baselinestretch}{1.0}
+%----------HEADING-----------------
+\vspace{0pt}
+\begin{flushleft}
+\noindent {\huge\textbf{Jeet Sarangi}}
+\vspace{-5pt}
+\end{flushleft}
+Department of Computer Science $\&$ Engineering  \hfill \href{mailto:jeets21@iitk.ac.in}{\faEnvelope{ jeets21@iitk.ac.in}} / \faPhone{ +91-8249690490}
+\\Indian Institute of Technology, Kanpur \hfill\href{https://github.com/jeetsarangi}{ \faGithub{ jeetsarangi}} / \href{https://www.linkedin.com/in/jeetsarangi/}{ \faLinkedinSquare{ jeetsarangi}}
+\vspace{5pt}
+\vskip -2mm  
+\vskip -2mm
+\rule{\textwidth}{1pt}
+
+%-----------EDUCATION-----------------
+\shorterSection{Education}
+\begin{center}
+\begin{tabular}{|p{2.5cm}|p{7.0cm}|p{7.5cm}|p{2.0cm}|}
+\hline
+\centering{\textbf{Year}} & \centering{\textbf{Degree/Certificate}} & \centering{\textbf{Institute}} & \ \ \ \ \ \ \textbf{CPI/$\%$}\\
+\hline
+\centering{2021-Present} & \centering{M.Tech/Computer Science \& Engg.} & \centering{Indian Institute of Technology, Kanpur} & \ \ \ \ \ 9.33/10\\
+\hline
+\centering{2016-2020} & \centering{B.Tech/Computer Science \& Engg.} & \centering{Biju Patnaik University of Technology,Rourkela} & \ \ \ \ \  8.54/10\\
+\hline
+\centering{2014-2016} & \centering{CBSE(\Romannum{12})} & \centering{Deepika English Medium School,Rourkela} & \ \ \ \ \ 51.2$\%$\\
+\hline
+\centering{2013-2014} & \centering{CBSE(\Romannum{10})} & \centering{Deepika English Medium School,Rourkela} & \ \ \ \ \ 8.0/10\\
+\hline
+\end{tabular}
+\end{center}
+\vspace{-1mm}
+
+
+
+%-----------Internship-----------------
+\shorterSection{Research Experience}
+\vspace{-2pt}
+\begin{itemize}
+\item \textbf{Intelligent Program Indexing}(M.Tech Thesis)
+\hfill\hfill(\textit{Mar'22 - Present})
+
+Guides: Prof. Purushottam Kar \& Prof. Amey Karkare
+\begin{itemize}
+          \item[$\circ$] Building an AI-assisted tool for \textbf{Indexing C programming problems} based on conceptual tags\\[-0.6cm]
+          
+          \item[$\circ$] Designing a \textbf{context sensitive} model for \textbf{Classification of hot areas} in programming problems \\[-0.6cm]
+          \item[$\circ$] Exploring \textbf {Deep learning based Techniques} for \textbf {clustering related portions} and \textbf{multi-label classification}\\[-0.6cm]
+          \item[$\circ$] Integrating the Indexing tool to Prutor an Intelligent E-tutoring platform for teaching programming courses\\[-0.6cm]
+          \item[$\circ$] \textbf{Research Areas :} Multi-label classification,Feature Engineering
+          
+    \end{itemize}
+\end{itemize}
+\medskip
+
+
+
+%-----------PROJECT-----------------
+\shorterSection{Projects}
+\vspace{-2pt}
+\begin{itemize}
+
+
+
+
+%  \item \href{https://github.com/jeetsarangi/Automated-Program-Analysis-Verification-and-Testing} {\textbf{Program Analysis, Verification and Testing on Turtle Framework}} (CS639) Guide: Prof.  Subhajit Roy  \hfill(Aug'21 - Nov'21)
+% 	\\[-0.6cm]
+% 	\begin{itemize}
+% 	    \item[$\circ$] Implemented a tool that parse the \textbf{Abstract Syntax Tree} to report all Assignment Statements and conditions\\[-0.6cm]
+	    
+% 	   % Implemented a tool that parse AST to report all Assignment Statements,loop conditions and branch conditions.
+% 	    \item[$\circ$] Implemented a tool to generate \textbf{Control Flow Graph} from given IR,used \textbf{Data Flow Analysis} to optimize given IR\\[-0.6cm]
+	    
+% 	   % \item[$\circ$] Reduced movements of turtle by optimizing the Intermediate Representation using \textbf{Data Flow Analysis}.\\[-0.6cm]
+	    
+% 	    \item[$\circ$] Synthesized unknown constants in a program using \textbf{Symbolic Execution} to make programs equivalent \\[-0.6cm]
+	    
+% 	    \item[$\circ$] Implemented a tool to perform verification of a property using \textbf{Abstract Interpretation}\\[-0.6cm]
+	    
+% 	    \item[$\circ$] Implemented \textbf{Coverage Guided Fuzzing} with custom mutation operator to find coverage
+% 	\end{itemize}
+
+
+% \item \textbf{Music Genre Classification}(CS771), Guide : Prof. Piyush Rai \hfill (\textit{Sept '20-Dec '20})
+% \begin{itemize}
+% \item[$\circ$] Used a subset of the GTZAN dataset which consisted of 10 genres each having 100 audio tracks of 30 secs.
+% \item[$\circ$] Used Chroma Short-time Fourier transform, Spectral Centroid, and Spectral Contrast, as features.
+% \item[$\circ$] Implemented a hierarchical LSTM architecture to perform the multi-class classification.
+% \end{itemize}
+
+
+\item \href{https://github.com/jeetsarangi/Census-Data-Analysis}{\textbf{Analysis on Covid and Census Data}}, (CS685) Guide: Prof. Arnab Bhattacharya   \hfill(Aug'21 - Nov'21)
+	\\[-0.6cm]
+	\begin{itemize}
+	      \item[$\circ$] Preprocessed government APIs and census data for covid and vaccine data analysis\\[-0.6cm]
+    % \item[$\circ$] Performed analysis on district level and state level to generate meaningful insights\\[-0.6cm]
+    \item[$\circ$] Find peaks of Covid 19 through time series data for different states and districts\\[-0.6cm]
+    \item[$\circ$] Analyzed Census data to discover top languages spoken in distinct regions, state, age group, and literacy levels\\[-0.6cm]
+	\end{itemize}
+
+
+	\item \href{https://github.com/jeetsarangi/Accidents-and-suicides-in-India-Analysis}{\textbf{Analysis on Accidents and Suicides in India}}, (CS639) Guide: Prof. Arnab Bhattacharya \hfill(Aug'21 - Nov'21)
+	\\[-0.6cm]
+	\begin{itemize}
+	      \item [$\circ$] Pre-processed Data published by NCRB,converted PDF tables to CSV ,merged tables from various sources to CSV.\\[-0.6cm]
+	   %   \item [$\circ$] Performed Exploratory analysis by plotting several visualisations to generate insights on year wise trends across Indian states.
+	   %   \\[-0.6cm]
+	      \item [$\circ$] Explored year-by-year trends throughout Indian states by plotting visualisations
+	      \\[-0.6cm]
+	      
+	\end{itemize}
+
+
+\item\href{https://github.com/jeetsarangi/Wikipedia-Article-Retrieval-System} {\textbf{Wikipedia Search Engine for English and Hindi}} (CS657) Guide: Prof.  Arnab Bhattacharya   \hfill(Feb'22 - Apr'22)
+	\\[-0.6cm]
+	\begin{itemize}
+	
+	\item [$\circ$] Pre-processed and parsed the Wikipedia XML-Dump using \textbf{regular expression matching and SAX parser}\\[-0.6cm]
+	
+% 	\item [$\circ$] Parsed Wikipedia XML dump for Hindi and English,prepared index pages with keywords using SAX parser.\\[-0.6cm]
+	
+	\item [$\circ$] Implemented \textbf{TF-iDF based Indexer} from scratch for \textbf{Ranking} based on similarity scores\\[-0.6cm]
+	
+	\item [$\circ$] Implemented query search efficiently by applying \textbf{Indexing on pre-processed Posting list}
+	 
+    
+    \end{itemize}
+
+ \item\href{https://github.com/jeetsarangi/Machine-Learning-CS771-}{\textbf{Implementing ML Models}} (CS771) Guide: Prof. Nisheeth Srivastava \hfill(Aug'21 - Nov'21)
+    \\[-0.6cm]
+	\begin{itemize}
+	   %   \item [$\circ$]Implemented K-NN based Regressor from scratch and trained it on UCI Automobile Data Set.\\[-0.6cm]
+	   
+	   %\item [$\cric$] Implemented K-NN Regression and Decision Tree Classification model  from scratch and trained on UCI Automobile and Adult Datasets.\\[-0.6cm]
+	      \item [$\circ$]Implemented \textbf{K-NN Regression} and \textbf{Decision Tree Classification} model  from scratch and trained on UCI's Datasets\\[-0.6cm]
+	      \item [$\circ$] Implemented \textbf {Perceptron Algorithm} and \textbf {variations of Gradient Descent} algorithms from scratch\\[-0.6cm]
+	      \item [$\circ$]Using Gausian Kernel implemented K-means and implemented \textbf {Expectation-Maximization} on Synthetic data\\[-0.6cm]
+	      
+	   %   \item [$\circ$]Implemented Expectation-Maximization
+    %     for Gaussian Mixture Model on Synthetic data.\\[-0.6cm]
+         
+        %  \item [$\circ$] Implemented Gradient Descent ,Stochastic GD and Mini-batch GD form scratch.\\[-0.6cm]
+         
+         \item [$\circ$] Implemented \textbf {MCMC sampling} to approximate Bayesian Posterior\\[-0.6cm]
+	\end{itemize}
+
+% \item \href{https://github.com/jeetsarangi/Network-Attack-Detection-and-Prevention-using-TCPdump-Grafana-and-Prometheus}{\textbf{Network Attack Detection and Prevention}} (CS659) Guide: Prof. Sandeep Kumar Shukla \hfill(Feb'22 - Apr'22)
+% 	\\[-0.6cm]
+% 	\begin{itemize}
+% 	    \item[$\circ$] Developed a centralized NIDS to detect and prevent attacks like \textbf{DDoS,TCP SYN flooding,ARP spoofing,Smurf DOS} and various \textbf{Nmap Scans}\\[-0.6cm]
+% 	    \item[$\circ$] TCPDump and Prometheus were used for \textbf {Network Monitoring} and data collection respectively and Grafana for Visualisation \\[-0.6cm]
+% 	   % \item[$\circ$] Grafana was used for Visualisation and generating attack triggers
+% % 	\end{itemize}
+
+% \item \href{https://github.com/jeetsarangi/Modern-Cryptology}{\textbf{Escaping the Caves}} (CS641) Guide: Prof. Manindra Agrawal \hfill(Feb'22 - Apr'22)
+%     \\[-0.6cm]
+% 	\begin{itemize}
+% 	      \item [$\circ$] \textbf {Analyzed and Decoded} various cryptosystems namely, \textbf {Substitution cipher, PlayFair cipher, DES, EAEAE, RSA,Hashing}\\[-0.6cm]
+	      
+% 	      \item [$\circ$] Exploited cryptosystems using different techniques like \textbf {frequency analysis, differential cryptanalysis, coppersmith algorithm}\\[-0.6cm]
+	      
+% 	   %   \item [$\circ$] Performed cryptanalysis on several encryption algorithms like Substitution cipher, PlayFair cipher, DES, EAEAE, RSA,Hashing.
+% 	\end{itemize}
+
+%  \item \href{https://github.com/jeetsarangi/Automated-Program-Analysis-Verification-and-Testing} {\textbf{Program Analysis, Verification and Testing on Turtle Framework}} (CS639) Guide: Prof.  Subhajit Roy  \hfill(Aug'21 - Nov'21)
+% 	\\[-0.6cm]
+% 	\begin{itemize}
+% 	    \item[$\circ$] Implemented a tool that parse the \textbf{Abstract Syntax Tree} to report all Assignment Statements and conditions\\[-0.6cm]
+	    
+% 	   % Implemented a tool that parse AST to report all Assignment Statements,loop conditions and branch conditions.
+% 	    \item[$\circ$] Implemented a tool to generate \textbf{Control Flow Graph} from given IR,used \textbf{Data Flow Analysis} to optimize given IR\\[-0.6cm]
+	    
+% 	   % \item[$\circ$] Reduced movements of turtle by optimizing the Intermediate Representation using \textbf{Data Flow Analysis}.\\[-0.6cm]
+	    
+% 	   % \item[$\circ$] Synthesized unknown constants in a program using \textbf{Symbolic Execution} to make programs equivalent \\[-0.6cm]
+	    
+% 	    \item[$\circ$] Explored
+% 	    various program analysis approaches like \textbf{Symbolic Execution,Abstract Interpretation} and \textbf{Fuzzing} \\[-0.6cm]
+	    
+% 	   % \item[$\circ$] Implemented a tool to perform verification of a property using \textbf{Abstract Interpretation}\\[-0.6cm]
+	    
+% 	   % \item[$\circ$] Implemented \textbf{Coverage Guided Fuzzing} with custom mutation operator to find coverage
+% 	\end{itemize}
+
+
+    
+    	\item \href{https://github.com/jeetsarangi/Experiments-with-Indian-Linguistic-Embeddings-and-Language-Corpora}{\textbf{IR Systems and Language Embeddings}}, (CS657) Guide: Prof. Arnab Bhattacharya \hfill(Feb'22 - Apr'22)
+	\\[-0.6cm]
+	\begin{itemize}
+	   %   \item[$\circ$]  Experimented with pre-trained word Embeddings to find word similarities.\\[-0.6cm]
+	      \item[$\circ$] Implemented IR Systems like \textbf{Boolean Retrieval model} and \textbf{BM25 model}. \\[-0.6cm]
+	      \item[$\circ$] Implemented N-grams model to find most frequently used words,letters and syllables in Hindi.\\[-0.6cm]
+	      
+	      \item[$\circ$] Fine-tuned pre-trained \textbf{Indic-Bert} using NER task, tested pre-trained \textbf{word embeddings} for word similarity. \\[-0.6cm]
+	   %   \item[$\circ$] Implemented N-grams model to find most frequently used words,letters and syllables in Hindi.\\[-0.6cm]
+	      
+	   %   \item[$\circ$] Implemented Boolean retrieval Model.\\[-0.6cm]
+	   % \item[$\circ$] Implemented a Probabilistic retrieval framework model Bm25 from scratch.\\[-0.6cm]
+	   % \item[$\circ$] Implemented TF-idF based scored retrieval Model from scratch.
+	\end{itemize}
+
+
+
+% 	\item \href{https://github.com/jeetsarangi/Accidents-and-suicides-in-India-Analysis}{\textbf{Analysis on Accidents and Suicides in India}}, (CS639) Guide: Prof. Arnab Bhattacharya \hfill(Aug'21 - Nov'21)
+% 	\\[-0.6cm]
+% 	\begin{itemize}
+% 	      \item [$\circ$] Pre-processed Data published by NCRB,converted PDF tables to CSV ,merged tables from various sources to CSV.\\[-0.6cm]
+% 	   %   \item [$\circ$] Performed Exploratory analysis by plotting several visualisations to generate insights on year wise trends across Indian states.
+% 	   %   \\[-0.6cm]
+% 	      \item [$\circ$] Explored year-by-year trends throughout Indian states by plotting visualisations
+% 	      \\[-0.6cm]
+	      
+% 	\end{itemize}
+	
+% 	\item \href{https://github.com/jeetsarangi/Census-Data-Analysis}{\textbf{Analysis on Covid and Census Data}}, (CS685) Guide: Prof. Arnab Bhattacharya   \hfill(Aug'21 - Nov'21)
+% 	\\[-0.6cm]
+% 	\begin{itemize}
+% 	      \item[$\circ$] Preprocessed government APIs and census data for covid and vaccine data analysis\\[-0.6cm]
+%     \item[$\circ$] Performed analysis on district level and state level to generate meaningful insights\\[-0.6cm]
+%     \item[$\circ$] Find peaks of Covid 19 through time series data for different states and districts\\[-0.6cm]
+%     \item[$\circ$] Analyzed Census data to discover top languages spoken in distinct regions, state, age group, and literacy levels\\[-0.6cm]
+% 	\end{itemize}
+
+
+\medskip
+
+\end{itemize}
+\vspace{-2mm}
+
+
+\shorterSection{Other Projects}
+\vspace{-2pt}
+\begin{itemize}
+     \item\href{https://github.com/jeetsarangi/spade}{\textbf{Spade(Spare Parts Demand Forecasting System)(Self)}}\hfill
+    \\[-0.6cm]
+    \begin{itemize}
+	      \item [$\circ$]Built a \textbf {Web-Based Car Inventory Management System},Implemented utilities like authentication,account management,order management and cart management using jsp and servlets\\[-0.6cm]
+	   %   \item [$\circ$]Implemented utilities like authentication,account management,order management and cart management.\\[-0.6cm]
+	      \item [$\circ$] Designed and Implemented \textbf {Relational Tables} using Oracle Database for managing information
+	\end{itemize}
+	\end{itemize}
+\medskip
+
+%------------Achievements--------------
+
+\shorterSection{Scholastic Achievements and Extra-Curricular}
+\begin{itemize}
+  \item Received the \textbf{Academic Excellence Award} for exceptional academic performance in 2021-22 academic session\\[-0.6cm]
+  \item Secured \textbf{All India Rank 378} in GATE CS 2021, about 1 lakh candidates appeared for the examination\\[-0.6cm]
+  \item \textbf{Honours} in Undergraduate under BPUT for extra credits\\[-0.6cm]
+  \item Completed Neural Networks and Deep Learning course on coursera
+\end{itemize}
+\medskip
+
+
+%-----------Position of Responsibility-----------------
+\shorterSection{Positions of Responsibility}
+\begin{itemize}
+\item \textbf{Teaching Assistant :} Intro To Machine Learning (CS771) \hfill\hfill(\textit{Aug '22-Present})
+% \item \textbf{Teaching Assistant :} Introduction to Python Programming \hfill\hfill(\textit{Jul '21-Aug '21})
+% \item \textbf{Teaching Assistant :} Fundamental of Computing \hfill\hfill(\textit{Nov '20-Mar '21}) (\textit{Mar '21-Jul '21})
+\vspace{2mm}
+\end{itemize}
+\vspace{-2mm}
+% -----------Courses and Skills-----------------
+% \shorterSection{Relevant Courses}
+% \begin{tabular}{p{8.4cm}p{6.5cm}p{5.5cm}}
+% \ \ \ \ \ \ \ \ \ \ Introduction to Machine Learning  &  Advanced Computer Architecture  &  Operating Systems
+% \\
+% \ \ \ \ \ \ \ \ \ \ Statistical Natural Language Processing   & Object Oriented Programming  &  Data Structures \& Algorithms
+% \\
+% \ \ \ \ \ \ \ \ \ \   Computational Genomics   & Data Mining  & Computer Networks 
+% \\
+% \ \ \ \ \ \ \ \ \ \   Database Management System   & Design and Analysis of Algorithms  & Mathematics 
+% \end{tabular}
+
+
+
+
+
+
+% % \shorterSection{Relevant Courses}
+% % \begin{itemize}
+% % \item \textbf{Postgraduate :} Introduction to Machine Learning, Statistical Natural Language Processing, Adv. Computer Architecture.
+% % \item \textbf{Undergraduate :} Data Structures and Algorithms, Operating Systems, Databases, Computer Networks, Mathematics.
+% % \end{itemize}
+% %-----------TECHNICAL SKILLS-----------------
+% \shorterSection{Technical Skills}
+% \begin{itemize}
+% \item \textbf{Languages :} C, C++, Python.
+% \item \textbf{Languages :} C, C++, Python, Java.
+% \item \textbf{ML Libraries:} Scikit-learn, Tensorflow, PyTorch.
+% \item \textbf{Familiar :} Numpy, Pandas.
+% \item \textbf{Utilities :} Git, \LaTeX, SQL.
+
+% \vspace{2mm}
+% \end{itemize}
+
+\shorterSection{Relevant Courses and Technical Skills}
+\begin{itemize}
+\item \textbf{Mtech Courses :} Introduction to Machine Learning,Program Analysis Verification and Testing, Information Retrieval,Data Mining
+\item \textbf{Btech Courses :} Data Structures \& Algorithms, Operating Systems, Computer Networks, Database Management System
+\item \textbf{Languages/ML Libraries/Utilities :} C, C++, Python, Javascript,Scikit-learn,Pandas,Numpy PyTorch,SQL,Git
+\end{itemize}
+
+
+% \vspace{-2mm}
+
+
+
+\end{document}
+
+% %-----------Addtional Experience & Achievements-----------------
+% \shorterSection{Additional Experience \& Achievements}
+%   \resumeSubHeadingListStart
+%   \small
+%     \item{Presented poster on \textit{Tiramisu DenseNet Architecture for Precise Segmentation} for Intel AI at \textbf{CVPR 2018}}
+%     \vspace{-5pt}
+%     \item{Selected as an \textbf{Intel AI Student Ambassador} (only 150 students) to research, publish, and share work on machine learning and deep learning}
+%     \vspace{-5pt}
+%     \item{Won \textit{Best Microsoft Hack} out of 220 teams at \textbf{HackHarvard 2017}}
+%     \vspace{-5pt}
+%     \item{Placed 16/50 at Google Games: Campus Edition 2017 at UIC}
+%     \vspace{-5pt}
+%     \item{Won \textit{Best Technical Innovation} award (out of 800 students) at \textbf{Amity University Convocation 2017}}
+%     \vspace{-5pt}
+%     \item{Elected as a \textit{Vice-Chair} for \textbf{ACM Amity Student Chapter} out of 800 students at Amity University based on high-achieving and technically strong undergraduate students}
+%   \resumeSubHeadingListEnd
+% %-------------------------------------------
+% \end{document}

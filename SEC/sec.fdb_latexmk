@@ -1,11 +1,11 @@
 # Fdb version 3
-["bibtex master"] 1693754761 "master.aux" "master.bbl" "master" 1693754761
-  "master.aux" 1693754761 1656 f3927f4b7e8f8ad8c8eb033d13f14bae "pdflatex"
+["bibtex sec"] 1693757541 "sec.aux" "sec.bbl" "sec" 1693757659
+  "sec.aux" 1693757659 1444 8ab925c29af61e9273edb7af50d37236 "pdflatex"
   (generated)
-  "master.bbl"
-  "master.blg"
-["pdflatex"] 1693754760 "/Users/vamshikiranmorlawar/Desktop/ResumeLatex/Master-1/master.tex" "master.pdf" "master" 1693754760
-  "/Users/vamshikiranmorlawar/Desktop/ResumeLatex/Master-1/master.tex" 1693754759 17367 e2eb60d7c659590210d79e1e319eebda ""
+  "sec.bbl"
+  "sec.blg"
+["pdflatex"] 1693757659 "/Users/vamshikiranmorlawar/Desktop/ResumeLatex/SEC/sec.tex" "sec.pdf" "sec" 1693757659
+  "/Users/vamshikiranmorlawar/Desktop/ResumeLatex/SEC/sec.tex" 1693757658 18788 ed13414b1aac9fcd198779e712ba42f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc" 1276641224 6938 5135be6a8802f13a7faf296d1959a1ab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -140,12 +140,12 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1659187170 2826441 113844defd9fe92c54c8d993a02a2e6e ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "master.aux" 1693754760 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "master.bbl" 0 -1 0 "bibtex master"
-  "master.out" 0 -1 0 "pdflatex"
-  "master.tex" 1693754759 17367 e2eb60d7c659590210d79e1e319eebda ""
+  "sec.aux" 1693757659 1444 8ab925c29af61e9273edb7af50d37236 "pdflatex"
+  "sec.bbl" 0 -1 0 "bibtex sec"
+  "sec.out" 1693757659 702 6ab5552ab0ec59c4b9b1944e577f13e6 "pdflatex"
+  "sec.tex" 1693757658 18788 ed13414b1aac9fcd198779e712ba42f4 ""
   (generated)
-  "master.aux"
-  "master.log"
-  "master.out"
-  "master.pdf"
+  "sec.aux"
+  "sec.log"
+  "sec.out"
+  "sec.pdf"
